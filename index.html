@@ -9,23 +9,56 @@
   rel="stylesheet"
   href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
 />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/lmj.css">
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/java.js"></script>
 </head>
 <body>
-    <div class="swiper" id="mainbanner">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
+    <div class="banner1 pb-5">
+        <div class="swiper" id="mainbanner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide saleEvent">
+                    <h3 class="invisible">SALE EVENT</h3>
+                </div>
+                <div class="swiper-slide newProduct">
+                    <h3 class="invisible">NEW PRODUCT</h3>
+                </div>
+                <div class="swiper-slide joinEvent">
+                    <h3 class="invisible">JOIN EVENT</h3>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-btn d-none d-md-flex">
+                <div class="swiper-button-prev btn1"></div>
+                <div class="swiper-button-next btn1"></div>
+            </div>
+            
+        
+            <div class="swiper-scrollbar"></div>
         </div>
-        <div class="swiper-pagination"></div>
-
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
-        <div class="swiper-scrollbar"></div>
     </div>
+    <div class="banner2">
+        <!-- 3개노출되고 하나씩 슬라이드 -->
+        <div class="swiper" id="secondbanner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+            </div>
+            <div class="swiper-pagination"></div>
+    
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+    
+    
 </body>
 </html>

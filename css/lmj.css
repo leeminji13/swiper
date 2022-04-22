@@ -1,0 +1,47 @@
+#mainbanner .swiper-slide{
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 444px;
+    
+}
+.swiper-scrollbar{
+    display: none;
+}
+.saleEvent{
+    background-color: antiquewhite;
+    background-image: url(../img/banner1.png);
+}
+.newProduct{
+    background-color: rgb(115, 194, 194);
+    background-image: url(../img/banner2.png);
+}
+.joinEvent{
+    background-color: rgb(107, 209, 153);
+    background-image: url(../img/banner3.png);
+}
+@media(max-width:768px){
+    #mainbanner .swiper-slide{
+        height: 0;
+        padding-top: 56%;
+        background-size: auto 100%;
+    }
+}
+#mainbanner .swiper-btn{
+    position: absolute;
+    justify-content: space-between;
+    top: 10px;
+    right: 20px;
+    width: 110px;
+    height: 35px;
+    background-color: #b2b2b270;
+    z-index: 100;
+    border-radius: 30px;
+}
+#mainbanner .swiper-btn .btn1{
+    position: relative;
+    color: rgb(241, 157, 0);
+}
+.btn1:after{
+    font-size: x-large;
+    margin: 0 14px;
+}
